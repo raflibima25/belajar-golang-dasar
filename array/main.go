@@ -18,4 +18,11 @@ func main() {
 	fmt.Println(values[0])
 	fmt.Println(values[1])
 	fmt.Println(values[2])
+
+	fmt.Println(len(names))
+	fmt.Println(len(values))
+
+	var tes = [10]string{}
+
+	fmt.Println(len(tes))
 }
